@@ -14,5 +14,5 @@ class pip {
     package { "python-pip":
        name     => "python-pip",
        ensure   => "installed",
-    }
+    } -> Package <| provider == 'pip' |>
 }
