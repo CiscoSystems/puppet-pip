@@ -1,5 +1,7 @@
 # Puppet package provider for Python's `pip` package management frontend.
 # <http://pip.openplans.org/>
+# Originally from Puppet <http://www.puppetlabs.com>, licensed under the Apache 2.0 license
+# Changed by Ian Wells <iawells@cisco.com> to add install options
 
 require 'puppet/provider/package'
 require 'xmlrpc/client'
